@@ -12,12 +12,14 @@
     "build": "tsc"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
     "winston": "^3.17.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/express-validator": "^2.20.33",
     "@types/mongoose": "^5.11.96",
